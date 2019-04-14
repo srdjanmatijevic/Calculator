@@ -1,0 +1,130 @@
+* {box-sizing: border-box;}
+
+@font-face {
+	font-family: 'Digital';
+    src: url('fonts/digital-7.ttf');
+	
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Digital', sans-serif;
+}
+
+#wrapper {
+	position: relative;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+	width: 400px;
+	height: 500px;
+	background: #b3b3b3;
+	margin-top: 5%;
+	border: 3px solid #666666;
+	border-radius: 35px;
+}
+
+/* #ekran {
+	text-align: right;
+	padding: 20px;
+	position: absolute;
+	background: #e6e6e6;
+	top: 5%;
+	left: 5%;
+	right: 5%;
+	height: 100px;
+	border: 1.5px solid #666666;
+	border-radius: 20px;
+	line-height: 100px;
+	padding-right: 40px;
+	color: #404040;
+} */
+
+#form{
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	right: 5%;
+}
+
+#izlaz {
+	font-size: 3em;
+	cursor: default;
+	text-align: right;
+	background: #e6e6e6;
+	height: 100px;
+	width: 100%;
+	border: 1.5px solid #666666;
+	border-radius: 20px;
+	line-height: 100px;
+	padding-right: 40px;
+	color: #404040;
+	font-family: 'Digital', sans-serif;
+
+}
+
+#dugmad {
+	position: absolute;
+	bottom: 5%;
+	left: 5%;
+	right: 5%;
+	height: 320px;
+	
+}
+
+#dugmad table {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #e6e6e6;
+	border-radius: 25px;
+	border: 2px solid #666666;
+	border-collapse: collapse;
+	font-size: 2.3em;
+	cursor: pointer;
+	user-select: none;
+}
+
+#dugmad table td {
+	border: 3px solid #b3b3b3;
+	
+}
+
+/* #borderDugmadi {
+	position: absolute;
+	bottom: 5%;
+	left: 5%;
+	right: 5%;
+	height: 320px;
+	border-radius: 25px;
+	border: 2px solid #666666;
+	z-index: 2;
+} */
+
+#logo {
+	font-style: italic;
+	color: #666666;
+	position: absolute;
+	top: 2.5px;
+	left: 50%;
+	margin-left: -49px;
+	user-select: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
